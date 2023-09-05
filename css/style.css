@@ -242,13 +242,17 @@ HEADER
 /*MAIN CONTENT*/
 
 .main-content__hero {
-    padding-top: 30px;
-    padding-bottom: 50px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    min-height: 750px;
+    min-height: 650px;
     text-align: center;
 }
+
+.main-content section {
+    padding: 85px 0;
+}
+
+
 
 
 
