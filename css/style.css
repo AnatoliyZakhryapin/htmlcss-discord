@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
 /*DEBUG*/
 
 .debug .page-header {
@@ -99,6 +104,14 @@
     background-color: #d3d3d3;
 }
 
+.bk-white {
+    background-color: #ffffff;
+}
+
+.bk-black {
+    background-color: #23272a;
+}
+
 .text-center {
     text-align: center;
 }
@@ -110,6 +123,22 @@
 .justify-between {
 	justify-content: space-between;
 }
+
+.font-white {
+    color: white;
+}
+
+.font-black {
+    color: black;
+}
+
+.button {
+    padding: 8px 12px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+
 
 /*ROW, COL and CONTEINER*/
 
@@ -153,6 +182,38 @@
 
 .col-12 {
     flex-basis: calc(100% / 1);
+}
+
+/*
+HEADER
+*/
+
+.page-header .row {
+    align-items: center;
+}
+
+.page-header {
+    background-color: #3161e0;
+    padding: 20px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.page-header ul {
+    display: flex;
+    justify-content: center;
+}
+
+.page-header li {
+    padding: 0 20px;
+}
+
+.page-header .col>a {
+    text-decoration: none;
+    color: black;
 }
 
 /*MAIN CONTENT*/
