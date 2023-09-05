@@ -102,6 +102,7 @@ ul, ol {
 
 body {
     font-family: 'DM Sans', sans-serif;
+    line-height: 1.8;
 }
 .bg-gray {
     background-color: #d3d3d3;
@@ -139,7 +140,23 @@ body {
     padding: 8px 12px;
     border: 1px solid black;
     border-radius: 16px;
+    text-decoration: none;
+    color: black;
 }
+
+a.button.bk-black {
+    color: white;
+}
+
+.main-content div [class^='col'] * {
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
 
 
 
@@ -214,10 +231,17 @@ HEADER
     padding: 0 20px;
 }
 
-.page-header .col>a {
-    text-decoration: none;
-    color: black;
+/*MAIN CONTENT*/
+
+.main-content__hero {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 300px;
+    text-align: center;
 }
 
-/*MAIN CONTENT*/
+
+
 
