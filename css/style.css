@@ -1,0 +1,159 @@
+/*RESET RULES*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*DEBUG*/
+
+.debug .page-header {
+    background-color: #add8e6;
+    padding: 10px;
+}
+
+.debug .page-header [class^='col'] {
+    padding: 10px;
+	border: 1px dashed black;
+    background-color: #daa520;
+}
+
+.debug main section {
+	padding: 20px;
+}
+
+.debug .main-content__hero {
+    background-color: #00008b;
+}
+
+.debug .main-content__hero [class^='col-'] {
+	background-color: #ee82ee;
+}
+
+.debug main [class^='col-'] {
+    padding: 10px;
+	border: 1px dashed rgb(0, 0, 0);
+    min-height: 300px;
+}
+
+.debug main .col-8 {
+	background-color: #1e90ff;
+}
+
+.debug main .col-4 {
+	background-color: #ffc0cb;
+}
+
+.debug .min-height500 .col-12 {
+	background-color: #228b22;
+	min-height: 600px;
+}
+
+.debug .footer-content {
+    background-color: #23272a;
+}
+
+.debug .footer-content__top {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c0c1c2;
+}
+
+.debug .footer-content__botom {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.debug .footer-content__top [class^='col-'] {
+    padding: 10px;
+	border: 1px dashed rgb(255, 255, 255);
+    min-height: 500px;
+}
+
+.debug .footer-content__top .col-4 {
+    background-color: #f08080;
+}
+
+.debug .footer-content__top .col-2 {
+    background-color: #20b2aa;
+}
+
+.debug .footer-content__botom .conteiner {
+    background-color: #7fffd4;
+}
+
+.debug .footer-content__botom [class^='col'] {
+    padding: 5px;
+    border: 1px dashed rgb(0, 0, 0);
+    background-color: #ffb6c1;
+}
+
+.debug .footer-content__botom .row {
+    min-height: 50px;
+    align-items: center;
+}
+/* */
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.grow-1 {
+	flex-grow: 1;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+/*ROW, COL and CONTEINER*/
+
+.conteiner {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.conteiner-small {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-reverse {
+	flex-direction: row-reverse;
+}
+
+.col-2 {
+    flex-basis: calc(100% / 6);
+}
+
+.col-3 {
+    flex-basis: calc(100% / 4);
+}
+
+.col-4 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-6 {
+    flex-basis: calc(100% / 2);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12 ) * 8 );
+}
+
+.col-12 {
+    flex-basis: calc(100% / 1);
+}
+
+/*MAIN CONTENT*/
+
