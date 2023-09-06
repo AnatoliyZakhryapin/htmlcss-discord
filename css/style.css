@@ -37,6 +37,10 @@ main {
     background-color: #23272a;
 }
 
+.bg-black-light {
+    background-color: #23272a;
+}
+
 .bk-violet {
     background-color: #8ea1e1;
 }
@@ -70,6 +74,10 @@ main {
     color: black;
 }
 
+.font-violet {
+    background-color: #5f71b0;
+}
+
 .button {
     padding: 10px 22px;
     border-radius: 22px;
@@ -96,6 +104,11 @@ h1 {
 
 .pad-20 {
     padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /*ROW, COL and CONTEINER*/
@@ -161,10 +174,7 @@ HEADER
     padding: 40px;
 }
 
-.header-menu a {
-    text-decoration: none;
-    color: white;
-}
+
 
 .page-header ul {
     display: flex;
@@ -207,6 +217,47 @@ a.button.bk-violet {
 .main-content__text-image-section h1 {
     line-height: 1;
 }
+
+/*FOOTER*/
+
+.footer-content {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-content h2,
+.footer-content h3 {
+    color: #5f71b0;
+}
+
+.footer-content .row {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #5f71b0;
+}
+.select-language {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px;
+    font-size: 20px;
+}
+
+.select-img {
+    width: 20px;
+}
+
+.link-icon ul {
+    display: flex;
+}
+
+.link-icon img {
+    width: 20px;
+}
+
+.link-icon li {
+    margin-right: 20px;
+}
+
 
 /*DEBUG*/
 
