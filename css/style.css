@@ -201,6 +201,7 @@ HEADER
 .main-content__hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     min-height: 700px;
     text-align: center;
 }
