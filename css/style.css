@@ -111,6 +111,12 @@ a {
     color: white;
 }
 
+svg {
+    position: relative;
+    left: 0;
+    bottom: 80px;
+    width: 100%;
+}
 /*ROW, COL and CONTEINER*/
 
 .conteiner {
@@ -187,6 +193,9 @@ HEADER
 
 /*MAIN CONTENT*/
 
+.main-content__text-image-section {
+    position: relative;
+}
 .main-content__hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
