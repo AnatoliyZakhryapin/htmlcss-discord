@@ -189,6 +189,10 @@ HEADER
     padding: 0 20px;
 }
 
+.header-menu-items > a {
+    line-height: 32px;
+}
+
 /*MAIN CONTENT*/
 
 .main-content__text-image-section {
