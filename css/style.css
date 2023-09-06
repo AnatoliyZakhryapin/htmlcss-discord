@@ -180,14 +180,12 @@ HEADER
     padding: 40px;
 }
 
-
-
 .page-header ul {
     display: flex;
     justify-content: center;
 }
 
-.page-header li {
+.page-header a {
     padding: 0 20px;
 }
 
